@@ -5,7 +5,6 @@ body{
 }
 
 .Header{
-    background-image: url("image.png");
     font-family: the seasons , lora;
     padding: 0px;
     text-align: center;
@@ -17,7 +16,16 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  border-radius: 10px;
+}
 
+.center img{
+    margin-left: 420px;
+    margin-bottom: -4px;
+     border-radius: 10px;
 }
 
 h2{
